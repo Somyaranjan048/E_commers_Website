@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Food</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">   
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/18e8bebb2d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="li"></div>
+    <div class="header" id="home">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Logo.png" width="105px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="product.html">Menu</a></li>
+                        <li><a href="Cake.html">Cake</a></li>
+                        <li><a href="">Momos</a></li>
+                        <li><a href="">Juice</a></li>
+                        <li><a href="">Order</a></li>
+                        <li><a href="Login_font.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/shopping-cart.png" alt="" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h1> <span>Good Food</span> <br> At your door staps</h1>
+                    <p>Good & testy food with Lovely food.Don't wait <span>order now</span> </p>
+                    <a href="product.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/main-image.png" alt="" width="640px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------Featured categories------------------->
+    <div class="categories" >
+        <h1>You Can Try This Itams</h1>
+        <div class="small-cotainer">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/images-2.png" alt="" width="480px">
+                </div>
+                <div class="col-3">
+                    <img src="images/Double Chocolate Cake.jpeg" alt="" width="480px">
+                </div>
+                <div class="col-3">
+                    <img src="images/62999.jpeg" alt="" width="380px">
+                </div>
+                <div class="col-3">
+                    <img src="images/images-4.png" alt="" width="380px">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!----------------------------------------Menu---------------------------->
+    <div class="menu" id="Menu">
+        <h1>Popular<span>Items</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-1.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Fried Momos</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-2.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Dragon Momos</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-3.jpg" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Momos</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-4.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Momos</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-5.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Dark Cocko Chocolate cake</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-1.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Lassi</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="product-detail.html" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-1.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Lassi</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card">
+                <div class="menu_image">
+                    <img src="images/images-1.png" alt="">
+                </div>
+                <div class="small_card">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="menu_info">
+                    <h2>Lassi</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Perferendis ratione vel harum.
+                    </p>
+                    <h3>Rs.199</h3>
+                    <div class="menu_icon">
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-light fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="menu_btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------Offer----------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/cake.png" alt="" width="430px" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>50% Off On Chocolate Cake</p>
+                    <h1>Chocolate Cake</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae qui laborum odio sunt
+                        quia quo, error aliquid saepe ut consectetur quibusdam in repellat velit inventore.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------testimonial------------------------>
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                     <i class="fa fa-quote-left"></i>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsam veniam harum temporibus
+                        accusamus expedita laboriosam.</p>
+                        <div class="rating">
+                            <i class="fa-light fa-star"></i>
+                            <i class="fa-light fa-star"></i>
+                            <i class="fa-light fa-star"></i>
+                            <i class="fa-light fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <img src="images/user-1.png" alt="">
+                     <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsam veniam harum temporibus
+                       accusamus expedita laboriosam.</p>
+                       <div class="rating">
+                           <i class="fa-light fa-star"></i>
+                           <i class="fa-light fa-star"></i>
+                           <i class="fa-light fa-star"></i>
+                           <i class="fa-light fa-star"></i>
+                           <i class="fa-regular fa-star-half-stroke"></i>
+                       </div>
+                       <img src="images/user-2.png" alt="">
+                    <h3>Sean Parker</h3>
+               </div>
+               <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsam veniam harum temporibus
+                   accusamus expedita laboriosam.</p>
+                   <div class="rating">
+                       <i class="fa-light fa-star"></i>
+                       <i class="fa-light fa-star"></i>
+                       <i class="fa-light fa-star"></i>
+                       <i class="fa-light fa-star"></i>
+                       <i class="fa-regular fa-star-half-stroke"></i>
+                   </div>
+                   <img src="images/user-3.png" alt="">
+                   <h3>Sean Parker</h3>
+               </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--------------------------------summery-------------------------------->
+    <div class="summery">
+        <div class="summery-head">
+            <div class="summery-list">
+                <p><a href="about.html">About</a></p>
+                <p><a href="partners.html">Blog</a></p>
+                <p><a href="privacy.html">Jobs</a></p>
+            </div>
+            <div class="summery-list">
+                <p><a href="">Return/Cancelled Policy</a></p>
+                <p><a href="">Shiping & Tracking</a></p>
+                <p><a href="">Help-line +91 93898023382</a></p>
+            </div>
+            <div class="summery-list">
+                <p><a href="">FAQs</a></p>
+                <p><a href="">Size Chart</a></p>
+                <p><a href="">Orders</a></p>
+            </div>
+            <div class="summery-list">
+                <p><a href="www.Facebook.com"><i class="fa-brands fa-square-facebook"></i></a></p>
+                <p><a href=""><i class="fa-brands fa-square-instagram"></i></a></p>
+                <p><a href=""><i class="fa-brands fa-twitter"></i></a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 Lovely food & juce made with by Pinakee Digital technology</p>
+        </div>
+    </div>
+    <script>
+        let scrollContainer = document.querySelector(".gallery");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+            scrollContainer.style.scrollBehavior = "auto";
+        });
+        nextBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft += 999;
+        });
+        backBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft -= 999;
+        });
+
+    </script>
+    <!------------------js for menu toggle----------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        } 
+    </script>
+</body>
+
+</html>

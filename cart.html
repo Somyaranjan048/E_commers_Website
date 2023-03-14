@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Food |  Product-details</title>
+    <link rel="stylesheet" href="product-details.css">
+    <script src="https://kit.fontawesome.com/18e8bebb2d.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Logo.png" width="124px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Search</a></li>
+                        <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <!------------------------------Cart item details-->    
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th></th>
+                <th>Subtotal</th>
+                
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/Classic_chocolate_Cake.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p>Classic chocolate</p>
+                        <small>Price:50/-</small>
+                    </div>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                
+                <td>
+                    <div><a href="">Remove<i class="fa-solid fa-trash"></i></a></div>
+                </td>
+                <td>Rs 199.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/Classic_chocolate_Cake.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p>Classic chocolate</p>
+                        <small>Price:50/-</small>
+                    </div>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+               
+                <td>
+                    <div><a href="">Remove<i class="fa-solid fa-trash"></i></a></div>
+                </td>
+                <td>Rs 199.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/Classic_chocolate_Cake.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p>Classic chocolate</p>
+                        <small>Price:50/-</small>
+                    </div>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                
+                <td>
+                    <div><a href="">Remove<i class="fa-solid fa-trash"></i></a></div>
+                </td>
+                <td>Rs 199.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>200.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>23.00</td>
+                </tr>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>223.00</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+        
+        <!--------------------------------footer-------------------------------->
+    <div class="summery">
+        <div class="summery-head">
+          <div class="summery-list">
+            <p><a href="about.html">About</a></p>
+            <p><a href="partners.html">Blog</a></p>
+            <p><a href="privacy.html">Jobs</a></p>
+          </div>
+          <div class="summery-list">
+            <p><a href="">Return/Cancelled Police</a></p>
+            <p><a href="">Shiping & Tracking</a></p>
+          </div>
+          <div class="summery-list">
+            <p><a href="">FAQs</a></p>
+            <p><a href="">Size Chart</a></p>
+            <p><a href="">Orders</a></p>
+          </div>
+          <div class="summery-list">
+            <p><a href=""><i class="fa-brands fa-square-facebook"></i></a></p>
+            <p><a href=""><i class="fa-brands fa-square-instagram"></i></a></p>
+            <p><a href=""><i class="fa-brands fa-twitter"></i></a></p>
+          </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2023 Lovely food & juce made with by Wabapp technology</p>
+        </div>
+    </div>
+    <!-------------------------------navbar-------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        } 
+    </script>
+    <!-------------------js for product gallery------------------------->
+    
+    </body>
+</html>
+ 
